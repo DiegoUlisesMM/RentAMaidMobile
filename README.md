@@ -1,2 +1,2 @@
-Esta es una prueba de archivos para Git
-Primer actualización
+Esta es una prueba de archivos para Git ->
+Segunda actualización
