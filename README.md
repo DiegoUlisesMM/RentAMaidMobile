@@ -1,2 +1,2 @@
-Esta es una prueba de archivos para Git ->
-Actualización, trabajando desde rama
+Trabajando en la primera versión
+Sprint 1
