@@ -3,7 +3,7 @@ import React from 'react'
 import { SvgXml } from 'react-native-svg';
 import { FontAwesome5 } from '@expo/vector-icons'; 
 
-export default function LoginEmpleado() {
+export default function LoginCliente() {
   return (
     <View style={styles.mainContainer}>
      <View style={styles.containerSvg}>

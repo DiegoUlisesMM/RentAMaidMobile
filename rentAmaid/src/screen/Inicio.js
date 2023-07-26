@@ -12,6 +12,10 @@ const goNavigationLoginEmpleado = ()=>{
   navigation.navigate('LoginEmpleado')
 }
 
+const goNavigationLoginCliente = ()=>{
+  navigation.navigate('LoginCliente')
+}
+
   return (
     <View styles={styles.mainContainer} >
       <View style={styles.containerSvg}>
@@ -26,7 +30,7 @@ const goNavigationLoginEmpleado = ()=>{
         style={styles.imagen}
       />
         <Text style={styles.titulo}>Bienvenid@</Text>
-        <TouchableOpacity 
+        <TouchableOpacity onPress={goNavigationLoginCliente}
           style={styles.button1}>
           <Text
             style={styles.buttonText1}
