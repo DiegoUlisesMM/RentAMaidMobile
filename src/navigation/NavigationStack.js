@@ -24,6 +24,9 @@ export default function NavigationStack() {
             <Stack.Screen
             name='NavigationTab'
             component={NavigationTab}
+            options={{
+              headerShown: false,
+            }}
             />
             <Stack.Screen
             name='Registro'

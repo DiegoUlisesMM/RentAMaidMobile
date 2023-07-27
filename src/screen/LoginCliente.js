@@ -8,6 +8,10 @@ export default function LoginCliente(props) {
   const goNavigationRegistrer = ()=>{
     navigation.navigate('Registro')
   }
+  const goNavigationTab = ()=>{
+    navigation.navigate('NavigationTab')
+  }
+
   return (
     <View style={styles.mainContainer}>
      <View style={styles.containerSvg}>
@@ -28,7 +32,7 @@ export default function LoginCliente(props) {
           <TextInput placeholder='  Contraseña' style={styles.inputText}  placeholderTextColor="white"/>
         </View>
         <Text style={styles.accountText}>Olvidaste tu contraseña</Text>
-        <TouchableOpacity
+        <TouchableOpacity onPress={goNavigationTab}
           style={styles.button1}>
           <Text
             style={styles.buttonText1}
